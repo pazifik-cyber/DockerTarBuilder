@@ -5,7 +5,7 @@ on:
       docker_images:
         description: 'pytorch/pytorch:1.13.1-cuda11.6-cudnn8-devel'
         required: true
-        default: 'alpine:latest'  # 设置默认的 Docker 镜像列表
+        default: 'pytorch/pytorch:1.13.1-cuda11.6-cudnn8-devel'  # 设置默认的 Docker 镜像列表
 
 jobs:
   pull_and_package:
